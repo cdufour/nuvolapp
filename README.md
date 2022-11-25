@@ -10,7 +10,9 @@ Lorsque le client http requiert la route racine (/), le serveur lui renvoie le f
 Ces deux fichiers renvoyés au client constitue le *front*, c'est-à-dire l'interface utilisateur (UI).  
 
 L'application front est à l'écoute de certaines actions effectuées par l'utilisateur, comme le click sur bouton par exemple.  
-L'application est capable d'interroger, via des requêtes sur certaines routes (endpoints), la couche logique (serveur web) afin de lui faire exécuter des actions "côté back", comme par exemple, accéder à la base de données en lecture/écriture.
+L'application est capable d'interroger, via des requêtes sur certaines routes (endpoints), la couche logique (serveur web) afin de lui faire exécuter des actions "côté back", comme par exemple, accéder à la base de données en lecture/écriture.  
+
+[Démo en ligne](http://nuvolapp.opusidea.org/)  
 
 ![front](scr/front.png)
 
