@@ -1,0 +1,10 @@
+---
+env:
+    node: true
+    es6: true
+rules:
+    comma-spacing:
+    - error
+    - before: false
+      after: true
+    space-in-parens: ["error", "never"]
